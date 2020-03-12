@@ -1,0 +1,241 @@
+/* 33bdea */
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+body {
+    background-color: #f1f6fa;
+    /* background-color: #FCEADE; */
+    font-family: 'Ubuntu', sans-serif;
+    color: #616161;
+    padding-bottom: 10vh;
+}
+
+h1 {
+    color: #f1f6fa;
+}
+
+h3, h2 {
+    color: #33bdea;
+}
+
+.header {
+    margin: 5vh 10vw;
+    text-align: center;
+}
+
+.jumbotron {
+    height: 80vh;
+    background-color: #f1f6fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: top;    
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 2vh 0 1vh 0 !important; 
+    margin-top: 56px;
+}
+
+.j_opplegg {
+    background-image: url("./rakett.JPG");
+    justify-content: flex-end;
+}
+
+.j_forside {
+    background-image: url("./digital.JPG");
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.video-description {
+    margin: 3vh 10vw;
+    align-self: center;
+}
+
+.video-button {
+    width: 50vw;
+    align-self: center;
+}
+
+.video-iframe {
+    width: 70vw;
+    height: 40vw;
+    margin: auto;
+}
+
+.info-container {
+    display: flex;
+    margin: 10vh 10vw 1rem 10vw;
+    margin-top: 3vh;
+}
+
+.info-text {
+    padding: 0 3vw;
+    width: 100%;
+}
+
+.mazemap {
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+}
+
+.break{
+    margin: 0 10vw;
+}
+
+.speakers-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 2vw;
+    width: 25rem;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10vh;
+    margin: 5vw;
+}
+
+.center{
+    text-align: center;
+}
+
+.display-2 {
+    font-weight: 600;
+}
+
+.opacaty{
+    background-image: linear-gradient(to right, rgba(0.5, 0.5, 0.5, 0.0) , rgba(0.5, 0.5, 0.5, 0.4),rgba(0.5, 0.5, 0.5, 0.0));
+    /* background-color: rgba(0.5, 0.5, 0.5, 0.4); */
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 5vw;
+    text-align: center;
+    z-index: +1;
+}
+
+.card-body {
+    color: black;
+}
+
+#logo {
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+.info-opplegg-container {
+    margin: 2vh 10vw;
+}
+
+.btn-oppgave {
+    margin: 1vh 1vw;
+}
+
+.text2{
+    margin-top: 2vh;
+}
+
+.bilde {
+    width: 100%;
+}
+
+.widthAuto{
+    width: auto;
+}
+
+.card-body {
+    color: #616161;
+}
+
+.list-group {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    h3{
+        text-align: center;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .display-2 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    
+
+    .info-container{
+        flex-direction: column;
+    }
+
+    .info-text {
+        width: 100%;
+    }
+
+    .title {
+        margin-top: 15vh;
+    }
+
+    .mazemap {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .speakers-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-iframe {
+        margin-bottom: 2vh;
+    }
+
+    #jumbo-text {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    h1{
+        color: #33bdea;
+    }
+
+    .påmelding-btn {
+        margin-bottom: 2vh;
+    }
+
+    .info-container {
+        display: flex;
+        margin: 10vh 5vw 1rem 5vw;
+        margin-top: 3vh;
+    }
+}
